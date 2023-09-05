@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WA Messages Viewer - Server</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
+</head>
+<body>
+
+	<div id="header">
+		<span id="chat_with"></span>
+		<input id="getFile" type="file">
+		<div id="app_btns">
+			<img id="trash" src="assets/images/trash.svg">
+			<!-- <img src="assets/images/attachments.svg"> -->
+			<!-- <img src="assets/images/menu.svg"> -->
+		</div>
+	</div>
+
+	<div id="msgs_list">
+        <div>
+            <div class=msg_block>
+                <p class=message>
+                <strong>Note:</strong> WhatsApp Chat View runs locally on your browser.<br>
+                No data is ever sent anywhere.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class=msg_block>
+                <p class=message>
+                A username is asked in order to show your side of the chat.<br>
+                This is also stored locally in your browser.<br>
+                To remove that, press the <strong>trash icon</strong> above.
+                </p>
+            </div>
+        </div>
+        <div>
+            <div class=msg_block>
+                <p class=message>
+                To open a chat, please press the <strong>Open button</strong> in the bottom-right corner.
+                </p>
+            </div>
+        </div>
+    </div>
+
+	<div id="send_message">
+		<div id="text_msg">
+			<img src="assets/images/emoticons.svg">
+			<input id="text_area" type="text" value=""  placeholder="Type a message">
+			<img src="assets/images/camera.svg">
+		</div>
+		<img id="open_file" src="assets/images/open.svg" onclick="getFile.click()">
+	</div>
+
+	<script src="assets/js/common.js"></script>
+
+</body>
+</html>
