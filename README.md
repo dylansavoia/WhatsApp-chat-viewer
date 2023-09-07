@@ -8,3 +8,4 @@ Run in Your Browser: [WhatsApp Chat Viewer](https://dylansavoia.github.io/whatsa
 
 ![WhatsApp Chat Viewer Image](imgs/wa_chat_viewer.jpg)
 
+<img src=imgs/wa_chat_viewer.jpg align=center/>
