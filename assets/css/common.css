@@ -1,14 +1,11 @@
 html{
-    max-width: 800px;
     margin: 0 auto;
-    background-color: black;
-    overflow-x: hidden;
+    background-color: #052721;
 
     --radius-def: 7px;
     --clr-msg-bkg: #202c33;
     --clr-msg-me-bkg: #005c4b;
     --clr-msg-fg:  #e9edef;
-
 }
 
 html.light {
@@ -19,9 +16,15 @@ html.light {
 body{
     padding: 0; margin: 0;
     font-family: helvetica;
-    background-color: #000;
+    max-width: 800px;
+    margin: 0 auto;
+
     background-image: url("../images/background.webp");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 0 10px 0px black;
+    overflow: hidden;
 }
 
 #msgs_list ul {

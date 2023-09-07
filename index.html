@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WA Messages Viewer - Server</title>
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <title>WA Messages Viewer - Server</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
     <link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
 </head>
 <body>
 
-	<div id="header">
+    <div id="header">
         <img id=userIcon src="assets/images/whatsapp.svg" />
-		<span id="chat_with">WhatsApp Chat Viewer</span>
-		<input id="getFile" type="file">
-		<div id="app_btns">
-			<img id="trash" src="assets/images/trash.svg">
-			<!-- <img src="assets/images/attachments.svg"> -->
-			<!-- <img src="assets/images/menu.svg"> -->
-		</div>
-	</div>
+        <span id="chat_with">WhatsApp Chat Viewer</span>
+        <input id="getFile" type="file">
+        <div id="app_btns">
+            <img id="trash" src="assets/images/trash.svg">
+        </div>
+    </div>
 
-	<div id="msgs_list">
+    <div id="msgs_list">
         <div>
             <div class=msg_block>
                 <p class=message>
@@ -45,16 +43,16 @@
         </div>
     </div>
 
-	<div id="send_message">
-		<div id="text_msg">
-			<img src="assets/images/emoticons.svg">
-			<input id="text_area" type="text" value=""  placeholder="Type a message">
-			<img src="assets/images/camera.svg">
-		</div>
-		<img id="open_file" src="assets/images/open.svg" onclick="getFile.click()">
-	</div>
+    <div id="send_message">
+        <div id="text_msg">
+            <img src="assets/images/emoticons.svg">
+            <input id="text_area" type="text" value=""  placeholder="Type a message">
+            <img src="assets/images/camera.svg">
+        </div>
+        <img id="open_file" src="assets/images/open.svg" onclick="getFile.click()">
+    </div>
 
-	<script src="assets/js/common.js"></script>
+    <script src="assets/js/common.js"></script>
 
 </body>
 </html>
